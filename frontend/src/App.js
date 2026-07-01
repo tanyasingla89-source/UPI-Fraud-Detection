@@ -195,6 +195,24 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* Explanation */}
+            {result.explanation && (
+              <div style={{
+                marginTop: '16px',
+                padding: '12px 16px',
+                background: 'rgba(167,139,250,0.08)',
+                border: `1px solid rgba(167,139,250,0.25)`,
+                borderRadius: '8px',
+                fontSize: '14px',
+                color: '#e4e4f0',
+                textAlign: 'center',
+                lineHeight: '1.6'
+              }}>
+                📋 {result.explanation}
+              </div>
+            )}
+
           </div>
         )}
 
